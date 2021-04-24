@@ -1,0 +1,241 @@
+body{
+	background-color: #fcf0f3;
+}
+h1{
+	color: #df8f9d;
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	margin-left: 27px;
+	margin-top: 150px;
+}
+h2{
+	text-transform: uppercase;
+    color: #2d2d2b;
+    font-family: montserat; 
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-left: 27px;
+}
+.mainBlock{
+	background-color: white;
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.30);
+	margin:20px auto;
+	padding:20px;
+	width: 1280px;
+	position: relative;
+}
+
+.roseBackground {
+	background-image: url("../Image/Untitled-4.png");
+	background-size: 570px 740px;
+	width: 570px;
+	height: 740px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.greenbox{
+	border: 6px solid #9af48b;
+	min-height:200px; 
+	margin-top:25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 180px;
+	position: relative;
+}
+.pataroz{
+	background-image: url("../Image/chocolate-cake-with-red-black-currant.png");
+	background-size: 600px 300px;
+	width: 600px;
+	height: 300px;
+	margin-top: 90px;
+	float: right;
+}
+
+.logo {
+	background-image: url("../icons/LOGO.svg");
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 35px;
+	display: inline-block;
+}
+
+.menuRightTop {
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+
+.main-menu {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+.main-menu__item {
+	text-transform: uppercase;
+    font-family: montserrat; 
+    margin: 0 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.main-menu__item a {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+.main-menu__item a:hover {
+	border-bottom:3px solid #df8f9d;
+}
+
+.buttonCake {
+  border: none;
+  color: #2d2d2d;
+  padding: 19px 53px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #9af48b;
+  text-transform: uppercase;
+
+}
+
+.headerBlock {
+	display: block;
+	width: 560px;
+	height: auto;
+	text-align: center;
+}
+
+.headerBlock h1{
+	font-size: 54px;
+}
+
+.headerBlock h2{
+	font-size: 30px;
+	margin-top: -18px;
+}
+
+.menta{
+	background-image: url("../Image/288-2887944_foglia-menta-piperita.png");
+	background-size: 130px 110px;
+	width: 130px;
+	height: 110px;
+	position: absolute;
+	top: -60px;
+	right: -60px;
+}
+
+.raspberry {
+	background-image: url("../Image/raspberry-blackberry-fruit-clipart-transparent-background--xx8OYu.png");
+	background-size: 230px 220px;
+	width: 230px;
+	height: 220px;
+	position: absolute;
+	bottom: -100px;
+	right: -90px;
+}
+
+.cakeLeft {
+	background-image: url("../Image/IMG-1.png");
+	background-size: 320px 320px;
+	width: 320px;
+	height: 320px;
+	position: absolute;
+	bottom: -200px;
+	left: -54px;
+	z-index: 15;
+}
+
+.underCakeRose {
+	background-image: url("../Image/IMG-15.png");
+	background-size: 340px 260px;
+	width: 340px;
+	height: 260px;
+	position: absolute;
+	bottom: -200px;
+	left: -54px;
+	z-index: 14;
+	    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+
+.catalogContainer {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.catalog {
+	text-align: center;
+	color: #df8f9d;
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+}
+
+
+.menuCatalog {
+	margin-top: 55px;
+	text-align: center;
+}
+
+.catalog-menu {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+.catalog-menu__item {
+	text-transform: uppercase;
+    font-family: montserrat; 
+    margin: 0 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 36px;
+}
+
+.catalog-menu__item a {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+.catalog-menu__item a:hover {
+	border-bottom:3px solid #df8f9d;
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.roseBackground {
+		display: none;
+	}
+	.underCakeRose {
+		display: none;
+	}
+	.cakeLeft {
+		display: none;
+	}
+
+	.greenbox {
+		width: 90%;
+	}
+
+}

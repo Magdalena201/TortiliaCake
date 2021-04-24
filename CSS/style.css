@@ -224,12 +224,8 @@ h2{
 
 @media screen and (max-width: 767px) {
 
-	.roseBackground {
-		display: none;
-	}
-	.underCakeRose {
-		display: none;
-	}
+	.roseBackground,
+	.underCakeRose,
 	.cakeLeft {
 		display: none;
 	}
